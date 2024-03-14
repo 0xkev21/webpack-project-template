@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/no-unresolved": [2, { "caseSensitive": false }],
+    "no-console": "off"
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  }
+}

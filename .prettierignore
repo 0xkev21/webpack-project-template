@@ -1,0 +1,9 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/.html
+**/dist
+package.json
+package-lock.json
+webpack.config.js
